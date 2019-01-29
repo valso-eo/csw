@@ -10,7 +10,7 @@ html {
 
 body {
   color: #222;
-  font-family: 'Thasadith', sans-serif;
+  font-family: 'Sarabun', sans-serif;
   line-height: 2;
   margin: 0px auto;
   padding: 1em;
@@ -19,7 +19,7 @@ body {
 
 code {
   color: #060;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
   font-size: 100%;
   font-weight: bold;
 }
