@@ -16,19 +16,6 @@ body {
 }
 
 
-code {
-  color: #060;
-  font-family: courier;
-  font-size: 100%;
-  font-weight: bold;
-}
-
-code b {
-  font-weight: bold;
-  font-style: italic;
-}
-
-
 a {
   text-decoration: none;
 }
