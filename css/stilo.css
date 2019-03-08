@@ -85,17 +85,3 @@ h4 {
     min-width:50%;
     color:yellow;
 }
-
-#content{
-    position:absolute;
-    z-index:1;
-}
-
-#bg-text
-{
-    color:lightgrey;
-    font-size:120px;
-    transform:rotate(300deg);
-    -webkit-transform:rotate(300deg);
-}
-
