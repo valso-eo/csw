@@ -85,3 +85,11 @@ h4 {
     min-width:50%;
     color:yellow;
 }
+
+//สำหรับไอคอน
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
