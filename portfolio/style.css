@@ -7,6 +7,10 @@ body {
   float: center;
 }
 
+img {
+	border-radius: 1em;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -27,7 +31,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 5px;
   text-decoration: none;
 }
 
