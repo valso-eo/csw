@@ -1,4 +1,3 @@
-
 body {
   color: #222;
   font-family: 'Sarabun', sans-serif;
@@ -31,7 +30,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 5px;
+  padding: 8px;
   text-decoration: none;
 }
 
