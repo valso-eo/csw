@@ -5,7 +5,7 @@
 
 ## ดาวน์โหลดกันเถอะ
 ดาวน์โหลดไฟล์พจนานุกรมเอสเปรันโต-ไทย เรียบเรียงโดยวรุฒ บุญประเสริฐ สำหรับโปรแกรมที่สามารถใช้ไฟล์ของ StarDict ได้
-  1. [รุ่น 0.01 (06-04-2019)](./dict_eoth_06042019.zip) 1,717 คำหลัก (รุ่นทดลอง)
+  1. [รุ่น 0.01 (06-04-2019)](./DictEoTh001.zip) 1,717 คำหลัก (รุ่นทดลอง)
   
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
