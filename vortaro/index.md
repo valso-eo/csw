@@ -3,14 +3,14 @@
 ## ประวัติ
 เริ่มทำพจนานุกรมตั้งแต่ปี 2016 มีจุดประสงค์เพื่อที่จะทำเป็นพจนานุกรมเป็นเล่ม
 
-## ดาวน์โหลดกันเถอะ
-ดาวน์โหลดไฟล์พจนานุกรมเอสเปรันโต-ไทย เรียบเรียงโดยวรุฒ บุญประเสริฐ สำหรับโปรแกรมที่สามารถใช้ไฟล์ของ StarDict ได้
+## ดาวน์โหลด
+ดาวน์โหลดไฟล์พจนานุกรมเอสเปรันโต-ไทย เรียบเรียงโดยวรุฒ บุญประเสริฐ สำหรับโปรแกรมที่สามารถใช้ไฟล์ของ StarDict ได้ (แอปแอนดรอยด์ ColorDict, GoldenDict, SprintDict, QDict, AIpus)
   1. [รุ่น 0.01 (06-04-2019)](./DictEoTh001.zip) 1,717 คำหลัก (รุ่นทดลอง)
   
 ## License
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="สัญญาอนุญาตของครีเอทีฟคอมมอนส์" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />ผลงานนี้ ใช้<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">สัญญาอนุญาตของครีเอทีฟคอมมอนส์แบบ แสดงที่มา 4.0 International</a>.
 
-## อย่างไงต่อ
+## เป้าหมายต่อ
   1. เพิ่มเติมคำศัพท์ให้ได้ 2,500 คำหลัก และเพิ่มคำรอง (kunmetitaj vortoj) ที่จำเป็น ๆ
   2. สร้างไฟล์สำหรับโปรแกรม DictionaryForMIDs
 
