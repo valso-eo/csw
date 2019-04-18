@@ -6,33 +6,57 @@
   <meta name="description" content="แฟ้มสะสมผลงานครูวรุฒ บุญประเสริฐ">
 
   <link rel="shortcut icon" href="/favicon.ico"/> <!--icon ที่จะไปปรากฎบน tap-->
-  
-  <link href="style.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet"> 
 
-  <style>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link href="https://bootswatch.com/4/cerulean/bootstrap.min.css" rel="stylesheet"/>
+  
+  <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet"> <!--font จาก Google font-->
+  <style type="text/css">
     body {
-      text-align: center; /*only on this page*/
+      font-family: 'Sarabun';
+      text-align: center;
     }
   </style>
+
 <title>รวมคำสั่ง</title>
 </head>
 
 <body>
 <div class="header">
+  <br>
   <h2 align="center">แฟ้มสะสมผลงานอิเล็กทรอนิกส์ (E-portfolio)</h2>
   <p align="center">นายวรุฒ  บุญประเสริฐ</p>
 </div>
 
-<ul>
-  <li><a href="index.html">หน้าแรก</a></li>
-  <li><a href="pro.html">ประวัติส่วนตัว</a></li>
-  <li><a href="mat.html"><s>สื่อการสอน</s></a></li>
-  <li><a href="suc.html"><s>ผลงาน</s></a></li>
-  <li><a href="pic.html">ภาพกิจกรรม</a></li>
-  <li><a class="active" href="ord.html">คำสั่ง</a></li>
-</ul>
-
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <a class="navbar-brand" href="index.html">E-portfolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<!--<span class="sr-only">(current)</span>-->
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="pro.html">ประวัติส่วนตัว</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="mat.html">สื่อการสอน</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="suc.html">ผลงาน</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pic.html">ภาพกิจกรรม</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="ord.html">คำสั่ง<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
 <p>
 <h3>รวมคำสั่ง</h3>
 <div style="padding:0 16px; text-align: left;">
