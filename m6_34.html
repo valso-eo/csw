@@ -39,6 +39,11 @@
 </style>
   </style>
 	<title>ม.6 วิชา ศ33215 วิชาทักษะขลุ่ยเพียงออ - เว็บไซต์ครูวรุฒ</title>
+
+  <!--Using $ABC_UI with minimal code-->
+  <link rel="stylesheet" href="http://dev.music.free.fr/css/music.min.css" />
+  <script src="http://dev.music.free.fr/js/abc-ui-1.0.0.min.js"></script>
+
 </head>
 <body>
 
@@ -81,7 +86,7 @@
     <br>
     <br>
 <div id='red'>การอ่านโน้ตไทย</div>
-<iframe src="/m6_34/thai_notation.pdf" width="100%" height="500px"></iframe>    
+<a href="/m6_34/thai_notation.pdf">เอกสารการฝึกอ่านโน้ตไทย</a> 
     <br>
 <div id='red'>โน้ตเพลง</div>  
   <br>
@@ -90,5 +95,20 @@
   <br>
     <hr>
 <img src="Screenshot_2020-01-12_14-47-58.png" style="width: 200px;align-items: center;"> 
+  <br>
+  <iframe width="200" height="auto" src="https://www.youtube.com/embed/0FVdusygFAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="abc-source">
+    %%player_top
+    %%tempo{*30,60,80}
+    M:2/4
+    L:1/8
+    K:G
+    B|B>d A/B/A/G/|E>G D/B/D/E/]|G/A/B/d/ A/B/e/d/|B3 ]
+    B|B>d A/B/A/G/|E>G D/B/D/E/|G/A/B/d/ A/G/E/D/|G3 :|
+  </div>
+
+  <script>
+    $ABC_UI.init();
+  </script>
 </body>
 </html>
