@@ -9,3 +9,9 @@ Je suis un enseignant, qui essaie d'apprendre à créer un site Web comme matér
 
 # Saluton!
 Mi estas instruisto, kiu provas krei retejon por miaj lernantoj. Bonvolu libere esplori mian simplan retejon.
+
+# Uzitaj Programlingvoj
+HTML 
+CSS [FontAwasome](https://fontawesome.com/)
+JavaScript el [JavaScript CountUp/CountDown Timer](https://praveenlobo.com/blog/javascript-countup-countdown-timer/)
+[Bootswatch: Free themes for Bootstrap](https://bootswatch.com/)
