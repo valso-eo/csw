@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--ปรับขนาดให้เข้ากับหน้าจอมือถือ-->
+  <meta name="description" content="แฟ้มสะสมผลงานครูวรุฒ บุญประเสริฐ">
+
+  <link rel="shortcut icon" href="/favicon.ico"/> <!--icon ที่จะไปปรากฎบน tap-->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link href="https://bootswatch.com/4/litera/bootstrap.min.css" rel="stylesheet"/>
+  
+  <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet"> <!--font จาก Google font--> 
+
+  <!--counter for age-->
+  <script type="text/javascript" src="countup.js"></script>
+
+  <style type="text/css">
+    body {
+      font-family: 'Sarabun';
+    }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+  </style>
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css"> <!--icon for GitHub-->
+<title>ประวัติส่วนตัว</title>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <a class="navbar-brand" href="index.html">E-portfolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<!--<span class="sr-only">(current)</span>-->
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="profile.html">ประวัติส่วนตัว <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="works.html">ผลงาน</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="album.html">ภาพกิจกรรม</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="orders.html#last">คำสั่ง</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<h3 style="text-align: center;">ประวัติส่วนตัว</h3>
+<img src="./images/warut-ofc.jpg" alt="ชุดขาว" style="width: 300px" class="center"><br>
+<div style="padding:0 16px; text-align: left;">
+
+<h4>ประวัติส่วนตัว</h4> 
+ชื่อ  นาย<b>วรุฒ</b>  นามสกุล <b>บุญประเสริฐ</b><br>          
+<div>วันที่ 26 กันยายน 2535 อายุ <span id="counter1"></span></div>
+ภูมิลำเนา จ.สมุทรสงคราม<br>
+<br>
+<h4>ประวัติการศึกษา</h4>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">ระดับ</th>
+      <th scope="col">ชื่อสถาบัน</th>
+      <th scope="col">ปีการศึกษา</th>
+      <th scope="col">วุฒิที่ได้รับ</th>
+    </tr>
+  </thead>
+  <tbody>
+       <tr>
+      <th scope="row">มัธยมศึกษา</th>
+      <td>โรงเรียนโสภณศิริราษฎร์ (จ.ราชบุรี)</td>
+      <td>2553</td>
+      <td>ม.6</td>
+    </tr>
+       <tr>
+      <th scope="row">ปริญญาตรี</th>
+      <td><a href="http://www.swu.ac.th">มหาวิทยาลัยศรีนครินทรวิโรฒ</a> (กทม)</td>
+      <td>2558</td>
+      <td>กศ.บ. (ศิลปกรรมศาสตร์ศึกษา:ดนตรีศึกษา-ดนตรีไทย)</td>
+    </tr>
+  </tbody> 
+</table> 
+<h4>ประวัติการรับราชการ</h4>  
+บรรจุครั้งแรกที่ <a href="http://www.csw.thaischool.in.th">โรงเรียนชำนาญสามัคคีวิทยา</a> เมื่อวันที่ 2 มกราคม 2562 อายุราชการ <span id="counter2"></span>
+<br>
+<br>        
+<h4>ความรู้ความสามารถพิเศษ</h4>
+ภาษาเอสเปรันโต <a href="./images/ker.jpg">(CEFR B2)</a><br>
+</div>
+<br>
+<br>
+</body>
+<script type="text/javascript">
+  new CountUp('September 26, 1992 01:45:00',   'counter1');
+  new CountUp('January 02, 2019 09:00:00', 'counter2');
+</script>
+</html>

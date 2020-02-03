@@ -26,7 +26,7 @@
 function CountUp(initDate, id){
     this.beginDate = new Date(initDate);
     this.countainer = document.getElementById(id);
-    this.numOfDays = [ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 ];
+    this.numOfDays = [ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 ]; //ไม่แน่ใจว่าคิดเดือนกุมภาพันธ์แบบ ๒๙ วันบ้างหรือเปล่า
     this.borrowed = 0, this.years = 0, this.months = 0, this.days = 0;
     this.hours = 0, this.minutes = 0, this.seconds = 0;
     this.updateNumOfDays();
