@@ -8,6 +8,10 @@
 	<link rel="shortcut icon" href="/favicon.ico"/> <!–– ยังไม่ได้ใส่ ––>
 
 	 <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100&display=swap" rel="stylesheet">  <!--Google Font-->
+
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script> 
+    <script src="http://code.highcharts.com/modules/data.js"></script> 
 	
 	<style type="text/css">
 		body {
@@ -25,6 +29,10 @@
 			 border: 2px solid #2E64FE;
 			 padding: 20px; 
 			 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+		}
+		table, th, td {
+  			border: 1px solid #2E64FE;
+  			border-collapse: collapse;
 		}
 	</style>
 
@@ -53,8 +61,66 @@
 		</ul>
 </ul>
 </div>
+<br>
+<br>
+<div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
 
+<table id="datatable">
+<thead>
+<tr><th></th><th>18 พ.ค.</th></tr>
+</thead>
+<tbody>
+<tr><th>ม.2/1</th><td>14</td></tr>
+<tr><th>ม.2/2</th><td>32</td></tr>
+<tr><th>ม.2/3</th><td>28</td></tr>
+<tr><th>ม.2/4</th><td>23</td></tr>
+<tr><th>ม.2/5</th><td>28</td></tr>
+<tr><th>ม.2/6</th><td>14</td></tr>
+<tr><th>ม.2/7</th><td>11</td></tr>
+<tr><th>ม.2/8</th><td>15</td></tr>
+<tr><th>ม.2/9</th><td>22</td></tr>
+<tr><th>ม.2/10</th><td>5</td></tr>
+</tbody>
+</table>
 
+<script language="JavaScript">
+$(document).ready(function() { 
+   var data = {
+      table: 'datatable'
+   };
+   var chart = {
+      type: 'column'
+   };
+   var title = {
+      text: 'สถิติจำนวนนักเรียนเข้ารายงานตัววิชาทัศนศิลป์ ม.2'   
+   };      
+   var yAxis = {
+      allowDecimals: false,
+      title: {
+         text: 'จำนวนนักเรียน (คน)'
+      }
+   };
+   var tooltip = {
+      formatter: function () {
+         return '<b>' + this.series.name + '</b><br/>' +
+            this.point.y + ' ' + this.point.name.toLowerCase();
+      }
+   };
+   var credits = {
+      enabled: false
+   };  
+      
+   var json = {};   
+   json.chart = chart; 
+   json.title = title; 
+   json.data = data;
+   json.yAxis = yAxis;
+   json.credits = credits;  
+   json.tooltip = tooltip;  
+   $('#container').highcharts(json);
+});
+
+</script>
 </div>
 </body>
 </html>
