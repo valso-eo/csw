@@ -8,10 +8,6 @@
 	<link rel="shortcut icon" href="/favicon.ico"/> <!–– ยังไม่ได้ใส่ ––>
 
 	 <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100&display=swap" rel="stylesheet">  <!--Google Font-->
-
-	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script> <!--แผนภูมิ-->
-    <script src="http://code.highcharts.com/highcharts.js"></script> <!--แผนภูมิ-->
-    <script src="http://code.highcharts.com/modules/data.js"></script> <!--แผนภูมิ-->
 	
 	<style type="text/css">
 		body {
@@ -30,26 +26,24 @@
 			 padding: 20px; 
 			 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 		}
-		table, th, td {
-  			border: 1px solid #2E64FE;
-  			border-collapse: collapse;
-		}
-		.container {
-  			position: relative;
+		.iframe-container {
   			overflow: hidden;
-			width: 100%;
-			padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  			padding-top: 56.25%;
+  			position: relative;
 		}
-
-		/* Then style the iframe to fit in the container div with full height and width */
-		.responsive-iframe {
-		  position: absolute;
-		  top: 0;
-		  left: 0;
-		  bottom: 0;
-		  right: 0;
-		  width: 100%;
-		  height: 100%;
+ 
+		.iframe-container iframe {
+		   border: 0;
+		   height: 100%;
+		   left: 0;
+		   position: absolute;
+		   top: 0;
+		   width: 100%;
+		}
+		 
+		/* 4x3 Aspect Ratio */
+		.iframe-container-4x3 {
+		  padding-top: 75%;
 		}
 	</style>
 
@@ -63,71 +57,22 @@
 
 <div id="borders">
 <br>
+<div class="iframe-container">
+<iframe frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqP6J55W94dY9rJY12OYYC1qGqdSauHwB9YCmBDrf8-L3CoIZsP3XZGTyHq5GqawV3XFbZXxAfAdGl/pubchart?oid=1427490868&amp;format=interactive"></iframe>
+</div>
+<br>
+<br>
 สถิติจำนวนนักเรียนเข้ารายงานตัววิชาทัศนศิลป์ ม.2
 <br>
-<table id="datatable">
-<thead>
-<tr><th>ชั้น</th><th>18 พ.ค.</th></tr>
-</thead>
-<tbody>
-<tr><th>ม.2/1</th><td>14</td></tr>
-<tr><th>ม.2/2</th><td>32</td></tr>
-<tr><th>ม.2/3</th><td>28</td></tr>
-<tr><th>ม.2/4</th><td>23</td></tr>
-<tr><th>ม.2/5</th><td>28</td></tr>
-<tr><th>ม.2/6</th><td>14</td></tr>
-<tr><th>ม.2/7</th><td>11</td></tr>
-<tr><th>ม.2/8</th><td>15</td></tr>
-<tr><th>ม.2/9</th><td>22</td></tr>
-<tr><th>ม.2/10</th><td>5</td></tr>
-</tbody>
-</table>
+
 <br>
 <br>
 </div>
 <br>
 <br>
-<div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
 
 
-<script language="JavaScript">
-$(document).ready(function() { 
-   var data = {
-      table: 'datatable'
-   };
-   var chart = {
-      type: 'column'
-   };
-   var title = {
-      text: 'สถิติจำนวนนักเรียนเข้ารายงานตัววิชาทัศนศิลป์ ม.2'   
-   };      
-   var yAxis = {
-      allowDecimals: false,
-      title: {
-         text: 'จำนวนนักเรียน (คน)'
-      }
-   };
-   var tooltip = {
-      formatter: function () {
-         return '<b>' + this.series.name + '</b><br/>' +
-            this.point.y + ' ' + this.point.name.toLowerCase();
-      }
-   };
-   var credits = {
-      enabled: false
-   };  
-      
-   var json = {};   
-   json.chart = chart; 
-   json.title = title; 
-   json.data = data;
-   json.yAxis = yAxis;
-   json.credits = credits;  
-   json.tooltip = tooltip;  
-   $('#container').highcharts(json);
-});
 
-</script>
 </div>
 </body>
 </html>
