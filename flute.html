@@ -84,7 +84,13 @@
 <br>
 แบบฝึกหัดแรก เพลงขนมปังกรอบ
 <br>
-<a href="#midi" onClick="MIDIjs.play('hot_cross_buns.mid');">เล่นเพลงขนมปังกรอบ</a>
+<a href="#" onClick="MIDIjs.play('/hot_cross_buns.mid');">เล่นเพลงขนมปังกรอบ</a><br>
+<a href="#" onClick="MIDIjs.play('/hot_cross_buns_sen.mid');">เล่นเพลงขนมปังกรอบ (ไม่มีเสียงขลุ่ย)</a><br>
+<object>
+<a href="#" onClick="MIDIjs.stop();">หยุดเล่น</a><br>
+MIDIjs status: <span id="MIDIjs.message" style="color: green"></span>
+<div>
+MIDIjs audio time (s): <span id="MIDIjs.audio_time" style="color: green"></span></div>
 </div>
 
 
